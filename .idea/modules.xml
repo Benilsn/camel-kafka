@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IntelliJ Workspace.iml" filepath="$PROJECT_DIR$/.idea/IntelliJ Workspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camel-app-A/camel-app-A.iml" filepath="$PROJECT_DIR$/camel-app-A/camel-app-A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camel-app-B/camel-app-B.iml" filepath="$PROJECT_DIR$/camel-app-B/camel-app-B.iml" />
+    </modules>
+  </component>
+</project>
