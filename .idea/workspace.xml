@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e25cee11-4133-458c-8bdf-4c3d1e42110c" name="Changes" comment="" />
+    <list default="true" id="e25cee11-4133-458c-8bdf-4c3d1e42110c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_camel_jackson_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_springboot_camel_jackson_starter_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_camel_springboot_camel_jacksonxml_starter_3_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/RouteEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/files/json/.camel/1000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/files/json/.camel/1001.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/files/xml/.camel/1000.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/files/xml/.camel/1002.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-A/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/ActiveMQPublisherRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/ActiveMQPublisherRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/FileRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/FileRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/KafkaPublisherRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/KafkaPublisherRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/TimerRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-A/src/main/java/com/camel/camelappA/routes/TimerRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-B/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-B/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-B/src/main/java/com/camel/camelappB/routes/ActiveMQConsumerRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-B/src/main/java/com/camel/camelappB/routes/ActiveMQConsumerRouter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/camel-app-B/src/main/java/com/camel/camelappB/routes/KafkaConsumerRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/camel-app-B/src/main/java/com/camel/camelappB/routes/KafkaConsumerRouter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,33 +32,37 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/JDBC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wDkSbtcGGwB0PMsKlhPYfhCgQa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/camel-app-A/files/xml" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/camel-app-A/files/input" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MICRO\OneDrive\Área de Trabalho\IntelliJ Workspace\camel-app-A\files\input" />
       <recent name="C:\Users\MICRO\OneDrive\Área de Trabalho\IntelliJ Workspace\camel-app-A\files\xml" />
       <recent name="C:\Users\MICRO\OneDrive\Área de Trabalho\IntelliJ Workspace\camel-app-A\files\json" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\MICRO\OneDrive\Área de Trabalho\IntelliJ Workspace\camel-app-A\files\xml" />
       <recent name="C:\Users\MICRO\OneDrive\Área de Trabalho\IntelliJ Workspace\camel-app-A\files\json" />
+      <recent name="C:\Users\MICRO\OneDrive\Área de Trabalho\IntelliJ Workspace\camel-app-A\files\xml" />
       <recent name="C:\Users\MICRO\OneDrive\Área de Trabalho\IntelliJ Workspace\camel-app-A" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -52,7 +75,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.CamelAppAApplication">
-    <configuration name="CamelAppAApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CamelAppAApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.camel.camelappA.CamelAppAApplication" />
       <module name="camel-app-A" />
       <extension name="coverage">
@@ -78,10 +101,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/MICRO/OneDrive/Área de Trabalho/IntelliJ Workspace" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CamelAppBApplication" />
-        <item itemvalue="Application.CamelAppAApplication" />
+        <item itemvalue="Gradle.C:/Users/MICRO/OneDrive/Área de Trabalho/IntelliJ Workspace" />
       </list>
     </recent_temporary>
   </component>
@@ -98,5 +140,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

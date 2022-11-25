@@ -7,12 +7,11 @@ import org.springframework.stereotype.Component;
 public class ActiveMQPublisherRouter extends RouteBuilder {
 
     @Override
-
     public void configure() throws Exception {
-        from("timer:active-mq-timer?period=5000")
+
+        from("timer:active-mq-timer?period=10000")
                 .transform().constant("Message to ActiveMQ")
                 .to("activemq:my-queue");
-
 
         from("file:camel-app-A/files/json")
                 .log("${body}")

@@ -8,8 +8,18 @@ public class FileRouter extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-//        from("file:camel-app-A/files/input")
-//                .log("${body}")
-//                .to("file:camel-app-A/files/output");
+        from("file:camel-app-A/files/input")
+                .routeId("Files-input-Route")
+                .transform().body(String.class)
+                .choice()
+                    .when(simple("${file:ext} ends with 'xml'"))
+                        .log("XML FILE")
+                    .when(simple("${body} contains 'USD'"))
+                        .log("Not XML but contain USD")
+                    .otherwise()
+                        .log("Not XML FILE")
+                .end()
+                .log("${body}")
+                .to("file:camel-app-A/files/output");
     }
 }

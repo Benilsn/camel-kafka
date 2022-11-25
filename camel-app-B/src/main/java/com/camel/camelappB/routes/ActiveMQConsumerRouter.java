@@ -20,12 +20,15 @@ public class ActiveMQConsumerRouter extends RouteBuilder {
     @Override
     public void configure() throws Exception {
 
-//        from("activemq:my-queue-json")
-//                .unmarshal().json(JsonLibrary.Jackson, CurrencyExchange.class)
-//                .bean(currencyExchangeProcessor, "processMessage")
-//                .bean(currencyExchangeTransformer, "transformMessage")
-//                .log("After Transform: "+ body())
-//                .to("log:Message received = ${body}");
+        from("activemq:my-queue")
+                .to("log:Message received = ${body}");
+
+        from("activemq:my-queue-json")
+                .unmarshal().json(JsonLibrary.Jackson, CurrencyExchange.class)
+                .bean(currencyExchangeProcessor, "processMessage")
+                .bean(currencyExchangeTransformer, "transformMessage")
+                .log("After Transform: "+ body())
+                .to("log:Message received = ${body}");
 
         from("activemq:my-queue-xml")
                 .unmarshal().jacksonXml(CurrencyExchange.class)

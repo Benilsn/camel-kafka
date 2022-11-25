@@ -15,9 +15,10 @@ public class TimerRouter extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        from("timer:new-timer")
-                .bean(getTime, "currentTime")
-                .to("log:new-log");
+
+//        from("timer:new-timer")
+//                .bean(getTime, "currentTime")
+//                .to("log:new-log");
     }
 }
 
